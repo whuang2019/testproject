@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T21:49:29.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.9.3" etag="HIuF-5nXZwqFTIwOb_ri" type="github"><diagram id="k2aMWEfZ_HrNU8Y3Lv6v">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-19T16:12:31.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="pytZ4ml32mkxAUfZW8R1" version="13.9.9" type="github">
+  <diagram id="k2aMWEfZ_HrNU8Y3Lv6v" name="Page-1">
+    <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aZoR_zxV3x6w0rRUYaB-1" target="5aZoR_zxV3x6w0rRUYaB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-1" value="&lt;br&gt;&lt;br&gt;User Sign in API&lt;br&gt;Get Input of &lt;br&gt;String User&lt;br&gt;String Password&lt;br&gt;On Success() release other fragments.&lt;br&gt;On failed() Invalid user name / password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-2" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aZoR_zxV3x6w0rRUYaB-1" target="5aZoR_zxV3x6w0rRUYaB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-3" value="Customer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5aZoR_zxV3x6w0rRUYaB-5" target="5aZoR_zxV3x6w0rRUYaB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-5" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Yelp API&lt;br&gt;Get input of&amp;nbsp;&lt;br&gt;String Business Name&lt;br&gt;String Location&lt;br&gt;Get search Data&lt;br&gt;String Store&lt;br&gt;String Types&lt;br&gt;String Distance&lt;br&gt;Sting Location&lt;br&gt;Google Map API&lt;br&gt;Get Map data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="195" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-6" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="5aZoR_zxV3x6w0rRUYaB-5" target="5aZoR_zxV3x6w0rRUYaB-5" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="475" as="sourcePoint" />
+            <mxPoint x="600" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-7" value="Search Page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="215" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aZoR_zxV3x6w0rRUYaB-9" target="5aZoR_zxV3x6w0rRUYaB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aZoR_zxV3x6w0rRUYaB-9" target="5aZoR_zxV3x6w0rRUYaB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-9" value="&lt;br&gt;Display List&lt;br&gt;String Store&lt;br&gt;String type&lt;br&gt;String Distance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="215" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-10" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="5aZoR_zxV3x6w0rRUYaB-9" target="5aZoR_zxV3x6w0rRUYaB-9" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="495" as="sourcePoint" />
+            <mxPoint x="870" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-11" value="Search Results List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aZoR_zxV3x6w0rRUYaB-12" target="5aZoR_zxV3x6w0rRUYaB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5aZoR_zxV3x6w0rRUYaB-12" target="5aZoR_zxV3x6w0rRUYaB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-12" value="&lt;br&gt;&lt;br&gt;Display&amp;nbsp;&lt;br&gt;Google Map Location&lt;br&gt;String Store&lt;br&gt;String type&lt;br&gt;String Distance&lt;br&gt;String phonecall&lt;br&gt;Button add favorites" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-13" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="5aZoR_zxV3x6w0rRUYaB-12" target="5aZoR_zxV3x6w0rRUYaB-12" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="780" as="sourcePoint" />
+            <mxPoint x="870" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-14" value="Detail Page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="510" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-19" value="&lt;br&gt;Display List&lt;br&gt;String Store&lt;br&gt;String type&lt;br&gt;Button Remove" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="507.5" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-20" value="" style="endArrow=none;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="5aZoR_zxV3x6w0rRUYaB-19" target="5aZoR_zxV3x6w0rRUYaB-19" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="787.5" as="sourcePoint" />
+            <mxPoint x="620" y="737.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-21" value="Favorites List" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="517.5" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-24" value="Go Back" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5aZoR_zxV3x6w0rRUYaB-26" value="Go Back" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="550" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
